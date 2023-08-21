@@ -1,0 +1,536 @@
+* {
+    font-family: Nunito, sans-serif !important;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100%
+}
+
+.nav-item a {
+    padding-right: 25px !important;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-expand-lg {
+    padding: 15px;
+}
+
+.navbar-brand {
+    width: 150px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.dropdown:hover .drop-menu {
+    display: block;
+}
+
+.drop-menu {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    background-color: whitesmoke;
+    display: none;
+}
+
+.drop-menu-container {
+    width: 500px !important;
+}
+
+.dropdown:hover .drop-menu-container .menu-cont::after {
+    border: 1px solid red;
+    box-shadow: 1px 2px rosybrown
+}
+
+
+.dropdown:hover .fa-circle-chevron-down {
+    transform: rotate(180deg);
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.fa-circle-chevron-down {
+    position: absolute;
+    transition: .2s;
+    padding-left: 5px;
+}
+
+.menu-item1 {
+    width: 48px;
+    padding: 4px;
+}
+
+.heading-bg {
+    background-color: rgb(226, 251, 236);
+}
+
+.heading {
+    background: -webkit-linear-gradient(45deg, #3781c2, #ff30dc 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600px;
+}
+
+.heading-img {
+    width: 86%;
+    height: 100vh;
+}
+
+.heading-btn1 {
+    margin-right: 20px;
+}
+
+h1 {
+    font-weight: 600 !important;
+}
+
+.digital-img {
+    width: 17%;
+}
+
+.card-digital {
+    box-shadow: 1px 2px 2px 1px rgb(184, 179, 179);
+    height: 65vh;
+}
+
+.feature1 {
+    text-align: right;
+}
+
+.feature2 {
+    text-align: left;
+}
+
+.invoicing-cont p,
+.order-cont p {
+    font-size: 18px;
+}
+
+.media,
+.order,
+.vendor,
+.account {
+    padding: 40px 0px;
+}
+
+.invoicing-img {
+    width: 80%;
+    border-radius: 12px;
+}
+
+.invoicing-cont {
+    padding: 3% 25% 7% 5%;
+
+}
+
+.invoicing-cont h3 {
+    font-weight: 500;
+}
+
+.order-img {
+    width: 80%;
+    border-radius: 12px;
+}
+
+.order-cont {
+    padding: 3% 5% 7% 25%;
+}
+
+.order-cont h3 {
+    font-weight: 500;
+}
+
+
+.order {
+    background-color: rgb(216, 228, 249);
+}
+
+.vendor {
+    background-color: rgb(221, 231, 227);
+}
+
+.account {
+    background-color: rgb(244, 215, 212);
+}
+
+.inquiry-img {
+    width: 25%;
+    height: 10vh;
+    margin-bottom: 20px;
+}
+
+.explore-add {
+    border: groove;
+
+}
+
+.mobileapp-border {
+    border: groove;
+    border-radius: 7px;
+    padding-left: 3%;
+}
+
+.play-store {
+    background-color: rgba(251, 182, 192, .18823529411764706);
+}
+
+.play-store-img {
+    width: 60%;
+}
+
+.phone-playstore {
+    width: 100%;
+}
+
+.acc-banner {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.solutions {
+    background-color: #126eb2;
+}
+
+.solutions-cont {
+    color: whitesmoke;
+}
+
+.logistics {
+    background-color: white;
+    border-radius: 13px;
+    width: 240px;
+    height: 30vh;
+}
+
+.expenses-four-img,
+.supplier-img,
+.logistics-img {
+    width: 20%;
+    height: 8vh;
+}
+
+.supplier-network-img {
+    width: 30%;
+    height: 8vh;
+}
+
+
+.clients1 {
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.tecxprt2 {
+    width: 30%;
+}
+
+.circle {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin-in {
+    position: absolute;
+    top: 9px;
+    left: 11px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:360px) {
+
+    .drop-menu-container {
+        width: 20px !important;
+    }
+
+    .heading-img {
+        height: 35vh;
+    }
+
+    .card-digital {
+        text-align: center;
+        height: auto;
+    }
+
+    .invoicing-img {
+        width: 100%;
+    }
+
+    .invoicing-cont {
+        padding: 5px;
+    }
+
+    .order-cont {
+        padding: 5px
+    }
+
+    .order-img {
+        width: 100%;
+    }
+
+    .media {
+        flex-direction: column-reverse;
+    }
+
+    .other-feature {
+        text-align: center;
+    }
+
+    .acc-banner {
+        height: 30vh;
+    }
+
+    .logistics {
+        background-color: white;
+        border-radius: 13px;
+        width: auto;
+        height: 25vh;
+    }
+}
+
+@media (min-width:361px) and (max-width:600px) {
+
+    .drop-menu-container {
+        width: 300px !important;
+    }
+
+    .heading-img {
+        height: 35vh;
+    }
+
+    .card-digital {
+        text-align: center;
+        height: auto;
+    }
+
+    .media {
+        flex-direction: column-reverse;
+    }
+
+    .invoicing-img {
+        width: 100%;
+    }
+
+    .invoicing-cont {
+        padding: 5px;
+    }
+
+    .order-cont {
+        padding: 5px
+    }
+
+    .order-img {
+        width: 100%;
+    }
+
+    .other-feature {
+        text-align: center;
+    }
+
+    .inquiry-img {
+        width: 15%;
+    }
+
+    .acc-banner {
+        height: 30vh;
+    }
+
+    .logistics {
+        width: auto;
+        height: 25vh;
+    }
+}
+
+@media (min-width:601px) and (max-width:680px) {
+
+    .drop-menu-container {
+        width: 300px !important;
+    }
+
+    .card-digital {
+        text-align: center;
+        height: auto;
+    }
+
+    .media {
+        flex-direction: column-reverse;
+    }
+
+    .invoicing-img {
+        width: 100%;
+    }
+
+    .invoicing-cont {
+        padding: 5px;
+    }
+
+    .order-cont {
+        padding: 5px
+    }
+
+    .order-img {
+        width: 100%;
+    }
+
+    .other-feature {
+        text-align: center;
+    }
+
+    .inquiry-img {
+        width: 15%;
+        height: 20vh;
+    }
+
+    .acc-banner {
+        height: 30vh;
+    }
+
+    .logistics {
+        width: auto;
+        height: 55vh;
+    }
+
+    .expenses-four-img,
+    .supplier-network-img,
+    .supplier-img,
+    .logistics-img {
+        width: 17%;
+        height: auto;
+    }
+}
+
+@media (min-width:681px) and (max-width:767px) {
+
+    .drop-menu-container {
+        width: 300px !important;
+    }
+
+    .heading-img {
+        width: 86%;
+        height: 35vh;
+    }
+
+    .invoicing-img {
+        width: 100%;
+    }
+
+    .card-digital {
+        text-align: center;
+        height: auto;
+    }
+
+    .invoicing-cont {
+        padding: 5px;
+    }
+
+    .order-cont {
+        padding: 5px;
+    }
+
+    .order-img {
+        width: 100%;
+    }
+
+    .media {
+        flex-direction: column-reverse;
+    }
+
+    .other-feature {
+        text-align: center;
+    }
+
+    .inquiry-img {
+        width: 20%;
+        height: 8vh;
+    }
+
+    .acc-banner {
+        height: 30vh;
+    }
+
+    .logistics {
+        background-color: white;
+        border-radius: 13px;
+        width: 475px;
+        height: 18vh;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .heading-img {
+        width: 86%;
+        height: 35vh;
+    }
+
+    .card-digital {
+        text-align: center;
+        height: 41vh;
+    }
+
+    .invoicing-img {
+        width: 100%;
+    }
+
+    .invoicing-cont {
+        padding: 5px;
+    }
+
+    .order-img {
+        width: 100%;
+    }
+
+    .order-cont {
+        padding: 5px;
+    }
+
+    .inquiry-img {
+        height: 6vh;
+    }
+
+    .logistics {
+        background-color: white;
+        border-radius: 13px;
+        width: 310px;
+        height: 18vh;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+
+    .card-digital {
+        text-align: center;
+        height: 33vh;
+    }
+}
